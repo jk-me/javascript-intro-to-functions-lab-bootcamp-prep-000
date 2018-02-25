@@ -10,7 +10,7 @@ function logShout(x){
   console.log(x.toUpperCase())
 }
 
-function LogWhisper(x){
+function logWhisper(x){
   console.log(x.toLowerCase())
 }
 
@@ -19,10 +19,10 @@ function sayHiToGrandma(x){
     return ("I can't hear you!")
   }
   else if (x==='HELLO'){
-    return ('YES INDEED')
+    return ('YES INDEED!')
   }
   else if (x===('I love you, Grandma.')){
-    return('I love you, too')
+    return('I love you, too.')
   }
 }
 
