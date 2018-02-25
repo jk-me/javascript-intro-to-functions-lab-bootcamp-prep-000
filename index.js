@@ -7,9 +7,9 @@ function whisper(x){
 }
 
 function logShout(x){
-  
+  console.log(x.toUpperCase())
 }
-describe('logShout(string)', function() {
+**/describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
